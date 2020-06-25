@@ -8,3 +8,10 @@ flow of work
    MoneyTransferServiceImpl where the transaction of money will takes place.    
 
 -> once the transaction is successful it will use the notification service and send the notification. 
+
+
+product improvement ideas
+-------------------------
+-> We can write multiple exception classes to send the exact error code and error message to the end user.
+-> we can use transaction to commit data into database. so that data inconsistence problems can be avoided.
+-> We can wse AOP to avoid cross cutting logic for handling the errors in every class.
